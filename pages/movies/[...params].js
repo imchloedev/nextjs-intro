@@ -3,8 +3,6 @@ import Seo from "../../components/Seo";
 
 export default function Movie() {
   const router = useRouter();
-  console.log(router);
-
   const [title, id] = router.query.params || [];
 
   return (
